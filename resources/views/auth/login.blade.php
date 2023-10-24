@@ -22,7 +22,7 @@
                             required autocomplete="current-password" />
 
             <x-input-error :messages="$errors->get('password')" class="mt-2" />
-        </div>
+    </div>
 
         <!-- Remember Me -->
         <div class="block mt-4">
